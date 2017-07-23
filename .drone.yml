@@ -6,4 +6,4 @@ pipeline:
   build:
     image: golang:latest
     commands:
-      - go run /go/src/github.com/oscat/hello-world/hello-world.go 
+      - go run src/github.com/oscat/hello-world/hello-world.go 
