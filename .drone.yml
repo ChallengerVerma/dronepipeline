@@ -6,6 +6,4 @@ pipeline:
   build:
     image: golang:latest
     commands:
-      - go get ./...
-      - go build
-      - go run 
+      - go run hello-world.go 
